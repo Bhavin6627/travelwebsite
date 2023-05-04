@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    font-size: 14px;
+}
+.w-100{
+    width: 100%;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+.w-20{
+    width: 15%;
+    margin: 10px 20px;
+}
+.w-80{
+    width: 85%;
+}
+.flex{
+    display: flex;
+}
+.main-menu a{
+    padding: 20px 10px;
+    margin: 0px 5px;
+    color: blue;
+    /* font-weight: bold; */
+    display: block;
+    /* font-size: 11px; */
+}
+.main-menu a:hover{
+    color: brown;
+}
+.mega-menu{
+    position: absolute;
+    left: 0;
+    display: none;
+}
+/* .mega-menu li{
+    list-style: circle;
+} */
+.po-re{
+    position: relative;
+}
+.w-25{
+    width: 25%;
+    background-color: white;
+}
+.mega-menu h3{
+    margin: 10px 0px;
+}
+.mega-menu a{
+    padding: 10px 0px;
+}
+.mega-menu a:hover{
+    color: grey
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.main-menu li:hover .mega-menu{
+    display: block;
+}
+.act li{
+    display: none;
+}
+.main-menu li:hover .act li{
+    display: block;
+}
+.kw li{
+    display: none;
+}
+.main-menu li:hover .kw li{
+    display: block;
+}
+.sz li{
+    display: none;
+}
+.main-menu li:hover .sz li{
+    display: block;
+}
+.fa-angle-down{
+    color: black;
+}
+/* .main{
+    background-image: url(cdmi1.jpg);
+
+}    */

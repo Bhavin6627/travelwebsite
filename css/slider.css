@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.item{
+    /* height: 200px; */
+    /* padding: 20px 30px; */
+    /* background-color: aqua; */
+    width: calc(33.33% - 5px);
+}
+.w-1140{
+    width: 1140px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: grey;
+    left: 0;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: red;
+    border: 20px;
+    padding: 0 !important;
+    font: inherit;
+}

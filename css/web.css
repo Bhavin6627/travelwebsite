@@ -1,0 +1,53 @@
+ul a {
+    /* padding: 10px; */
+    display: block;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+ul ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.col-4 a {
+    text-decoration: none;
+}
+
+.bg-color {
+    background-color: #003366;
+}
+
+.img {
+    height: 30px;
+}
+
+.bg-color {
+    background-color: #003366;
+}
+
+.text {
+    color: orangered;
+}
+
+.text li a {
+    text-decoration: none;
+}
+
+.text li a:hover {
+    text-decoration: underline;
+}
+
+.pr {
+    padding-right: 146px;
+}
+
+#toporder li a:hover {
+    color: orangered;
+}

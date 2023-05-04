@@ -1,0 +1,52 @@
+    /* ul
+    {
+        float: right;
+    } */
+ li{
+    list-style: none;
+    float: left;
+}
+ul li a{
+    background-color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: wheat;
+}
+ul ul{
+    position: relative;
+    padding: 0;
+    display: none;
+}
+ul ul li{
+    float: none;
+}
+ul li:hover > ul{
+    display: block;
+}
+ul ul li a{
+    background-color: burlywood;
+    display: block;
+}
+ul ul ul{
+    position: absolute;
+    margin: 0;
+    left: 10px;
+    top: 0;
+    
+}
+ul ul ul li{
+    background-color: rgb(88, 18, 154);
+    color: azure;
+    top: 0;
+}
+/* ul ul li:hover ul{
+    display: block;
+} */
+ul ul ul li:hover a{
+    background-color: aqua;
+}
+ul ul ul li:hover a{
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w-100{
+    width: 100%;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;   
+} 
+/* .head{
+    width: 100%;
+}
+.logo{
+    width: 22%;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+}  
+.menu{
+    float: left;
+    margin-top: 26px;
+    
+}
+ ul{
+    float: right;
+    margin-bottom: auto;
+} 
+ul li{
+    float: left;
+    margin-right: 0px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    display: block;
+}
+
+ul ul li{
+     float: none; 
+     background-color: burlywood;
+}
+ul li:hover a{
+    background-color: azure;
+}
+ul ul{
+    display: none;
+    position: relative;
+}
+ul li:hover > ul{
+    display: block;
+    position: absolute;
+}
+ul ul ul{
+    left: 70%;
+    margin: auto;
+    top: 0;
+} */
+.bg-image{
+    /* background-image: url(https://www.cdmi.in/assets/front/images/counter_bg.jpg); */
+    background-color: red;
+    width: 100%;
+}
